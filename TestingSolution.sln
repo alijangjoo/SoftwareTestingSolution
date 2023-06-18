@@ -43,13 +43,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSolution.TestProject
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContractTesting", "ContractTesting", "{10191008-AC3C-4C93-8214-513CE013D8DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSolution.TestProject.ContractTesting.ProviderTests", "tests\ContractTesting\TestingSolution.TestProject.ContractTesting.ProviderTests\TestingSolution.TestProject.ContractTesting.ProviderTests.csproj", "{AB3B683D-E9E7-46D2-B7C0-F5A6CC681163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSolution.TestProject.ContractTesting.ProviderTests", "tests\ContractTesting\TestingSolution.TestProject.ContractTesting.ProviderTests\TestingSolution.TestProject.ContractTesting.ProviderTests.csproj", "{AB3B683D-E9E7-46D2-B7C0-F5A6CC681163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSolution.TestProject.ContractTesting.ConsumerTests", "tests\ContractTesting\TestingSolution.TestProject.ContractTesting.ConsumerTests\TestingSolution.TestProject.ContractTesting.ConsumerTests.csproj", "{3A2A4909-005C-4F71-925C-7449DE366330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSolution.TestProject.ContractTesting.ConsumerTests", "tests\ContractTesting\TestingSolution.TestProject.ContractTesting.ConsumerTests\TestingSolution.TestProject.ContractTesting.ConsumerTests.csproj", "{3A2A4909-005C-4F71-925C-7449DE366330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSolution.TestProject.UI.ConsumerApp", "src\04UI\TestingSolution.TestProject.UI.ConsumerApp\TestingSolution.TestProject.UI.ConsumerApp.csproj", "{15CA77ED-669A-4073-862F-7E118DFD522F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSolution.TestProject.UI.ConsumerApp", "src\04UI\TestingSolution.TestProject.UI.ConsumerApp\TestingSolution.TestProject.UI.ConsumerApp.csproj", "{15CA77ED-669A-4073-862F-7E118DFD522F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSolution.TestProject.UI.ProviderApp", "src\04UI\TestingSolution.TestProject.UI.ProviderApp\TestingSolution.TestProject.UI.ProviderApp.csproj", "{3C0D0864-C5D7-4221-A827-A794A888BA0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSolution.TestProject.UI.ProviderApp", "src\04UI\TestingSolution.TestProject.UI.ProviderApp\TestingSolution.TestProject.UI.ProviderApp.csproj", "{3C0D0864-C5D7-4221-A827-A794A888BA0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documents", "documents", "{94736D37-58D9-4FAB-BA50-F91302862682}"
+	ProjectSection(SolutionItems) = preProject
+		G:\Tutorials\SelfStudy\39.Testing\Testing.docx = G:\Tutorials\SelfStudy\39.Testing\Testing.docx
+		G:\Tutorials\SelfStudy\39.Testing\Testing.pdf = G:\Tutorials\SelfStudy\39.Testing\Testing.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
