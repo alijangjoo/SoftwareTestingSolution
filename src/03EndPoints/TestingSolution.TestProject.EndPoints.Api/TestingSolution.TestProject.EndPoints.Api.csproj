@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01Core\TestingSolution.TestProject.Core.ApplicationServices\TestingSolution.TestProject.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\01Core\TestingSolution.TestProject.Core.Contracts\TestingSolution.TestProject.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\02Infra\Data\TestingSolution.TestProject.Infra.Data.SqlDb\TestingSolution.TestProject.Infra.Data.SqlDb.csproj" />
+  </ItemGroup>
+
+</Project>
